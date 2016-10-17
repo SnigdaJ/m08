@@ -1,0 +1,23 @@
+{
+  "name": "employee",
+  "plural": "employees",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "eid": {
+      "type": "number",
+      "required": true
+    },
+    "ename": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
